@@ -1,0 +1,126 @@
+
+
+
+.textGreen {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    border: 3rem;
+    text-align: start;
+    margin-left: 10%;
+    margin-top: 20%;
+    background-color: rgb(10, 25, 47);
+    color: rgb(100, 255, 218);
+    animation: size 10s steps(160, end);
+}
+
+
+@keyframes size {
+
+    from{width: 0}
+    to{width:100%}
+    100% {visibility: visible};
+}
+
+.textDarkGreyLarge {
+    display: flex;
+    flex-direction: column;
+    font-family: Calibre,
+        "San Francisco",
+        "SF Pro Text",
+        -apple-system,
+        system-ui,
+        BlinkMacSystemFont,
+        Roboto,
+        "Helvetica Neue",
+        "Segoe UI",
+        Arial,
+        sans-serif;
+    width: 90%;
+    border: 3rem;
+    margin-left: 10%;
+    margin-top: 1%;
+    background-color: rgb(10, 25, 47);
+    color: rgb(136, 146, 176);
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.textDarkGreySmall {
+    display: flex;
+    flex-direction: column;
+    font-family: Calibre,
+        "San Francisco",
+        "SF Pro Text",
+        -apple-system,
+        system-ui,
+        BlinkMacSystemFont,
+        Roboto,
+        "Helvetica Neue",
+        "Segoe UI",
+        Arial,
+        sans-serif;
+    width: 90%;
+    border: 3rem;
+    margin-left: 10%;
+    margin-top: 1%;
+    text-decoration: none;
+    background-color: rgb(10, 25, 47);
+    color: rgb(136, 146, 176);
+    font-size: 20px;
+}
+
+.textLightGreyLarge {
+    display: flex;
+    flex-direction: column;
+    font-family: Calibre,
+        "San Francisco",
+        "SF Pro Text",
+        -apple-system,
+        system-ui,
+        BlinkMacSystemFont,
+        Roboto,
+        "Helvetica Neue",
+        "Segoe UI",
+        Arial,
+        sans-serif;
+    width: 90%;
+    border: 3rem;
+    margin-left: 10%;
+    margin-top: 1%;
+    background-color: rgb(10, 25, 47);
+    color: rgb(204, 214, 246);
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.verticalTextContainer {
+    display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 60vh;
+        border: 3rem;
+        margin-left: 5%;
+        background-color: rgb(10, 25, 47);
+        text-decoration: none;
+}
+
+
+
+.button {
+    color: rgb(100, 255, 218);
+        background-color: transparent;
+        border: 1px solid rgb(100, 255, 218);
+        border-radius: 3px;
+        font-size: 16px;
+        font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+        line-height: 1;
+        text-decoration: none;
+        cursor: pointer;
+        transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+        padding: 10px 45px;
+        margin-bottom: 10%;
+        margin-left: 10%;
+        margin-top: 3%;
+        width: max-content;
+  }

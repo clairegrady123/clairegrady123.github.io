@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5b24722e.css",
+    "main.js": "/static/js/main.84a603fe.js",
+    "static/js/787.b98c23e5.chunk.js": "/static/js/787.b98c23e5.chunk.js",
+    "static/media/mandelbrot.png": "/static/media/mandelbrot.4a398e9ab19c3ca0df27.png",
+    "static/media/BothSudoku.png": "/static/media/BothSudoku.ce9639e49260c13f669f.png",
+    "static/media/Gomoku.png": "/static/media/Gomoku.61364c9d4ff16bbf85f8.png",
+    "index.html": "/index.html",
+    "main.5b24722e.css.map": "/static/css/main.5b24722e.css.map",
+    "main.84a603fe.js.map": "/static/js/main.84a603fe.js.map",
+    "787.b98c23e5.chunk.js.map": "/static/js/787.b98c23e5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b24722e.css",
+    "static/js/main.84a603fe.js"
+  ]
+}

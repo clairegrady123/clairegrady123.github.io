@@ -1,0 +1,429 @@
+.textGreen {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    border: 3rem;
+    text-align: start;
+    margin-left: 10%;
+    margin-top: 5%;
+    background-color: rgb(10, 25, 47);
+    color: rgb(100, 255, 218);
+    animation: size 10s steps(160, end);
+}
+
+@keyframes colour {
+    from {
+        color: rgb(10, 25, 47)
+    }
+
+    to {
+        color: rgb(100, 255, 218);
+    }
+}
+
+@keyframes size {
+
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+
+    100% {
+        visibility: visible
+    }
+
+    ;
+}
+
+.textDarkGreyLarge {
+    display: flex;
+    flex-direction: column;
+    font-family: Calibre,
+        "San Francisco",
+        "SF Pro Text",
+        -apple-system,
+        system-ui,
+        BlinkMacSystemFont,
+        Roboto,
+        "Helvetica Neue",
+        "Segoe UI",
+        Arial,
+        sans-serif;
+    width: 90%;
+    border: 3rem;
+    margin-left: 10%;
+    margin-top: 1%;
+    background-color: rgb(10, 25, 47);
+    color: rgb(136, 146, 176);
+    font-size: 70px;
+    font-weight: 600;
+}
+ul{
+    list-style-type: none;
+    margin-top: -20%;
+}
+
+.textDarkGreySmall {
+    display: flex;
+    flex-direction: column;
+    font-family: Calibre,
+        "San Francisco",
+        "SF Pro Text",
+        -apple-system,
+        system-ui,
+        BlinkMacSystemFont,
+        Roboto,
+        "Helvetica Neue",
+        "Segoe UI",
+        Arial,
+        sans-serif;
+    width: 90%;
+    border: 3rem;
+    margin-left: 10%;
+    margin-top: 1%;
+    text-decoration: none;
+    background-color: rgb(10, 25, 47);
+    color: rgb(136, 146, 176);
+    font-size: 20px;
+}
+
+.textLightGreyLarge {
+    display: flex;
+    flex-direction: column;
+    font-family: Calibre,
+        "San Francisco",
+        "SF Pro Text",
+        -apple-system,
+        system-ui,
+        BlinkMacSystemFont,
+        Roboto,
+        "Helvetica Neue",
+        "Segoe UI",
+        Arial,
+        sans-serif;
+    width: 90%;
+    border: 3rem;
+    margin-left: 10%;
+    margin-top: 1%;
+    background-color: rgb(10, 25, 47);
+    color: rgb(204, 214, 246);
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.vTextContainer {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100vh;
+    border: 3rem;
+    margin-left: 5%;
+    background-color: rgb(10, 25, 47);
+    text-decoration: none;
+}
+
+.wTextContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50vh;
+    border: 3rem;
+    margin-top: -13%;
+    margin-left: 20%;
+    color: rgb(136, 146, 176);
+    background-color: rgb(10, 25, 47);
+    text-decoration: none;
+}
+
+.wTextContainer a {
+    display: inline-block;
+    text-decoration: none;
+    text-decoration-skip-ink: auto;
+    position: relative;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    cursor: pointer;
+    color: rgb(100, 255, 218);
+}
+
+.title {
+    font-size: 18px;
+    color: rgb(204, 214, 246);
+}
+
+.dates {
+    font-size: 16px;
+    color: rgb(136, 146, 176);
+    font-family: "SF Mono",
+        "Fira Code",
+        "Fira Mono",
+        "Roboto Mono",
+        "Lucida Console",
+        Monaco,
+        monospace;
+}
+
+.jTextContainer {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 100vh;
+    margin-left: 6.5%;
+    background-color: rgb(10, 25, 47);
+    text-decoration: none;
+    margin-top: -380px;
+}
+
+span {
+    font-size: 18px;
+    margin-right: -120%;
+    text-decoration: none;
+    color: rgb(136, 146, 176);
+    background-color: rgb(10, 25, 47);
+    text-align: left;
+    font-family: "SF Mono",
+        "Fira Code",
+        "Fira Mono",
+        "Roboto Mono",
+        "Lucida Console",
+        Monaco,
+        monospace;
+}
+
+.triangle {
+    color: rgb(100, 255, 218);
+    background-color: rgb(10, 25, 47);
+    display: inline-block;
+}
+
+span:hover {
+    font-size: 18px;
+    color: rgb(100, 255, 218);
+    font-family: "SF Mono",
+        "Fira Code",
+        "Fira Mono",
+        "Roboto Mono",
+        "Lucida Console",
+        Monaco,
+        monospace;
+}
+
+span:focus {
+    font-size: 18px;
+    color: red;
+    font-family: "SF Mono",
+        "Fira Code",
+        "Fira Mono",
+        "Roboto Mono",
+        "Lucida Console",
+        Monaco,
+        monospace;
+}
+
+.textDarkGreySmall a {
+    display: inline-block;
+    text-decoration: none;
+    text-decoration-skip-ink: auto;
+    position: relative;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    cursor: pointer;
+    color: rgb(100, 255, 218);
+}
+
+.hTextContainer {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 100vh;
+    border: 3rem;
+    margin-left: 5%;
+    background-color: rgb(10, 25, 47);
+}
+
+.fContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    border: 3rem;
+    margin: auto;
+    background-color: rgb(10, 25, 47);
+}
+
+
+.footer {
+    padding: 1rem;
+    border-top: 2px solid rgb(136, 146, 176);
+    color: rgb(136, 146, 176);
+    background-color: rgb(10, 25, 47);
+    text-align: center;
+}
+
+.sideTextRight {
+    display: inline-block;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    letter-spacing: 0.5rem;
+    writing-mode: vertical-rl;
+    align-items: center;
+    text-decoration: none;
+    margin: 20px auto;
+    padding: 10px;
+    color: rgb(100, 255, 218);
+    position: fixed;
+    right: 0.5%;
+    bottom: 1%;
+}
+
+.sideTextRight:hover {
+    color: black;
+}
+
+.sideTextLeft {
+    display: inline-block;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    letter-spacing: 0.5rem;
+    writing-mode: vertical-rl;
+    align-items: center;
+    text-decoration: none;
+    margin: 10px auto;
+    padding: 0px;
+    color: rgb(100, 255, 218);
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    position: fixed;
+    right: 96%;
+    bottom: 1%;
+}
+
+
+.bi-social {
+    fill: rgb(100, 255, 218);
+    width: 30px;
+    height: 30px;
+    margin: 7px;
+}
+button {
+    background-color: rgb(10, 25, 47);
+    margin-left: 0%;
+    border: none;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.button {
+    color: rgb(100, 255, 218);
+    background-color: transparent;
+    border: 1px solid rgb(100, 255, 218);
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    padding: 10px 45px;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-top: 3%;
+    width: max-content;
+}
+
+.pages {
+    background-color: transparent;
+    border: none;
+    margin-left: 10px;
+    color: rgb(204, 214, 246);
+    font-size: 22px;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: "SF Mono",
+        "Fira Code",
+        "Fira Mono",
+        "Roboto Mono",
+        "Lucida Console",
+        Monaco,
+        monospace;
+}
+
+
+
+
+
+.pagesWorked {
+    background-color: transparent;
+    border: none;
+    margin-left: 10px;
+    color: rgb(204, 214, 246);
+    font-size: 22px;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: "SF Mono",
+        "Fira Code",
+        "Fira Mono",
+        "Roboto Mono",
+        "Lucida Console",
+        Monaco,
+        monospace;
+}
+
+.pages:hover {
+    color: rgb(100, 255, 218);
+}
+
+.pagesWorked:hover {
+    color: rgb(100, 255, 218);
+}
+
+.pages::after {
+    content: "";
+    display: block;
+    height: 1.5px;
+    width: 200px;
+    background-color: rgb(48, 60, 85);
+    position: relative;
+    margin-top: -12px;
+    margin-left: 120px;
+}
+
+.pagesWorked::after {
+    content: "";
+    display: block;
+    height: 1.5px;
+    width: 200px;
+    background-color: rgb(48, 60, 85);
+    position: relative;
+    margin-top: -12px;
+    margin-left: 240px;
+}
+
+.progressLine {
+    display: block;
+    background: rgb(100, 255, 218);
+    width: 2px;
+    height: 42px;
+    border-radius: 3px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transition: transform 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0.1s;
+    z-index: 10;
+    transform: translateY(0px);
+}
+
+.numbers {
+    background-color: transparent;
+    border: none;
+    color: rgb(100, 255, 218);
+    background-color: rgb(10, 25, 47);
+    font-size: 22px;
+    margin-left: 10%;
+    cursor: pointer;
+    font-family: "SF Mono",
+        "Fira Code",
+        "Fira Mono",
+        "Roboto Mono",
+        "Lucida Console",
+        Monaco,
+        monospace;
+}

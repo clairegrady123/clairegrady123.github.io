@@ -1,0 +1,35 @@
+.cont {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:rgb(10, 25, 47);
+}
+
+
+  .loaderContainer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:rgb(10, 25, 47);
+    z-index: 1;
+    font-size: 44px;
+}
+
+
+@keyframes fadeIn { 
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+
+svg polygon {
+    animation: fadeIn 5s infinite;
+}

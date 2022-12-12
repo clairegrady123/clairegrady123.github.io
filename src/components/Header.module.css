@@ -1,0 +1,113 @@
+.header {
+    font-size: 2.5rem;
+    padding: 1rem;
+    background-color: rgb(10, 25, 47);
+    color: rgb(100, 255, 218);
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+html{
+    scroll-behavior: smooth;
+    transition-duration: 2s;
+}
+
+.name {
+    padding: 1rem;
+    text-align: left;
+    color: rgb(100, 255, 218);
+    margin-right: auto;
+    font-family: "SF Mono",
+            "Fira Code",
+            "Fira Mono",
+            "Roboto Mono",
+            "Lucida Console",
+            Monaco,
+            monospace;
+}
+
+.actions {
+    display: flex;
+    column-gap: 1rem;
+}
+
+.pages {
+    background-color: transparent;
+    scroll-behavior: smooth;
+    border: none;
+    margin-left: 0px;
+    color: rgb(204, 214, 246);
+    font-size: 12px;
+    font-weight: 13px;
+    cursor: pointer;
+    font-family: "SF Mono",
+        "Fira Code",
+        "Fira Mono",
+        "Roboto Mono",
+        "Lucida Console",
+        Monaco,
+        monospace;
+}
+.pages:hover {
+    color: rgb(100, 255, 218);
+}
+
+.numbers {
+    background-color: transparent;
+    margin-right: -1rem;
+    color: rgb(100, 255, 218);
+    background-color: rgb(10, 25, 47);
+    font-size: 12px;
+    text-align: right;
+    cursor: pointer;
+    font-family: "SF Mono",
+            "Fira Code",
+            "Fira Mono",
+            "Roboto Mono",
+            "Lucida Console",
+            Monaco,
+            monospace;
+}
+
+.button {
+    background-color: rgb(10, 25, 47);
+    color: rgb(100, 255, 218);
+    cursor: pointer;
+    font-family: "SF Mono",
+            "Fira Code",
+            "Fira Mono",
+            "Roboto Mono",
+            "Lucida Console",
+            Monaco,
+            monospace;
+}
+
+.buttonText {
+    background-color: rgb(10, 25, 47);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px;
+    padding: 5px 25px;
+    border-color: rgb(100, 255, 218);
+    color: rgb(100, 255, 218);
+    font-size: 12px;
+    font-weight: 13px;
+    cursor: pointer;
+    font-family: "SF Mono",
+            "Fira Code",
+            "Fira Mono",
+            "Roboto Mono",
+            "Lucida Console",
+            Monaco,
+            monospace;
+}

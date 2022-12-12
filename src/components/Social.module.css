@@ -1,0 +1,41 @@
+
+  .sideTextLeft {
+    display: inline-block;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    letter-spacing: 0.5rem;
+    writing-mode: vertical-rl;
+    align-items: center;
+    text-decoration: none;
+    padding-left: 30px;
+    color: rgb(100, 255, 218);
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    position: fixed;
+    right: 94.5%;
+    bottom: 0%;
+}
+
+
+.bi-social {
+  stroke: rgb(100, 255, 218);
+  width: 20px;
+  height:20px;
+  margin: 15px;
+  transition: all .4s ease-in-out;
+}
+
+.bi-social:hover {
+  transform: translateY(-5px);
+  transition: all .4s ease-in-out;
+}
+
+
+.sideTextLeft::after {
+  content: "";
+  display:inline-block;
+  height: 200px;
+  width: 1px;
+  margin-top: 20px;
+  background-color:rgb(204, 214, 246);
+  position: relative;
+}
+
