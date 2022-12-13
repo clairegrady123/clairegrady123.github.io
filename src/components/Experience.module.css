@@ -91,7 +91,20 @@ button {
 .triangle {
     color: rgb(100, 255, 218);
     background-color: rgb(10, 25, 47);
-    display: inline-block;
+    display:inline-block;
+    z-index: 0;
+    position: relative;
+}
+
+.triangleText {
+    color: rgb(136, 146, 176);
+    width: 50vh;
+    height: auto;
+    margin-top: -19px;
+    margin-left: 25px;
+    background-color: rgb(10, 25, 47);
+    z-index: 1;
+    position: relative;
 }
 
 span {
@@ -101,13 +114,17 @@ span {
     color: rgb(136, 146, 176);
     background-color: rgb(10, 25, 47);
     text-align: left;
-    font-family: "SF Mono",
-        "Fira Code",
-        "Fira Mono",
-        "Roboto Mono",
-        "Lucida Console",
-        Monaco,
-        monospace;
+    font-family: Calibre,
+    "San Francisco",
+    "SF Pro Text",
+    -apple-system,
+    system-ui,
+    BlinkMacSystemFont,
+    Roboto,
+    "Helvetica Neue",
+    "Segoe UI",
+    Arial,
+    sans-serif;
 }
 
 
@@ -189,6 +206,7 @@ span:active {
     color: rgb(136, 146, 176);
     background-color: rgb(10, 25, 47);
     text-decoration: none;
+    z-index: 0;
 }
 
 .wTextContainer a {

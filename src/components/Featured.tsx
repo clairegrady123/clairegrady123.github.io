@@ -14,9 +14,10 @@ return (
             
             <div className={style.fullContainer}>
             <div className={style.horizontalProjectContainer}>
+            <a href="https://github.com/clairegrady123/Gomoku_Full_Stack">
                 <div className={style['image-holder']}>
                 <img src={Gomoku} alt="mandelbrot" width="480" height = "270"/>
-                </div>
+                </div></a>
                 <div className={style.jobContainer}>
                 <div className={style.featuredProjectContainer}></div>
                 <div className={style.featuredProjectContainer}><h4 className={style.h4}>Featured Project</h4></div>
@@ -53,15 +54,17 @@ return (
                 </div>
                 <div className={style.linkContainerL}></div>
             </div>
+            <a href="https://github.com/clairegrady123/CUDA_Mandelbrot">
             <div className={style['image-holderL']}>
                 <img src={Mandelbrot} alt="Mandelbrot" width="480" height = "270"/>
-                </div>
+                </div></a>
             </div>
             {/* Project 3 */}
             <div className={style.horizontalProjectContainer}>
+                <a href="https://github.com/clairegrady123/DFS_Sudoku_Solver">
                 <div className={style['image-holder']}>
                 <img src={Sudoku} alt="Sudoku" width="480" height = "270"/>
-                </div>
+                </div></a>
                 <div className={style.jobContainer}>
                 <div className={style.featuredProjectContainer}></div>
                 <div className={style.featuredProjectContainer}><h4 className={style.h4}>Featured Project</h4></div>

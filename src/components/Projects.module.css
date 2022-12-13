@@ -90,7 +90,6 @@
     flex-direction: row;
     width: 63%;
     height: 100vh;
-    border: 3rem;
     margin-left: 10%;
     margin-top: 3%;
     background-color: rgb(10, 25, 47);
@@ -182,13 +181,13 @@
             "Lucida Console",
             Monaco,
             monospace;
-    margin-top: 40px;
+    margin-top: 35px;
 }
 
 .descriptionContainer {
     display: grid;
     width: 280px;
-    height: 80px;
+    height: 85px;
     background-color: #112240;
     
 }
@@ -208,7 +207,6 @@
     flex-direction: row;
     width: 100%;
     height: 5vh;
-    border: 3rem;
     background-color: rgb(10, 25, 47);
 }
 

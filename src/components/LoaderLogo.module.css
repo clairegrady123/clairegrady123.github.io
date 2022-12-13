@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 10%;
     background:rgb(10, 25, 47);
 }
 
@@ -31,5 +32,8 @@
   }
 
 svg polygon {
-    animation: fadeIn 5s infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeIn 5s infinite;
 }
